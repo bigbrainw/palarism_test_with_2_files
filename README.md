@@ -283,16 +283,6 @@ detect_sequential_matches(matches, threshold=3)  # Line 91
 - Extreme summarization or expansion
 - Plagiarism from sources not provided
 
-## File Structure
-
-```
-palarism/
-├── main.py              # Main plagiarism detection script
-├── article_A.txt        # Original article (to be created)
-├── article_B.txt        # Suspected article (to be created)
-├── README.md            # This file
-└── venv/                # Virtual environment (optional)
-```
 
 ## Technical Details
 
@@ -356,7 +346,8 @@ This means you are free to use, modify, and distribute this software for any pur
 ## Credits
 
 Built with:
-- [Sentence Transformers](https://www.sbert.net/) by UKPLab
+- [Sentence Transformers](https://www.sbert.net/) by UKPLab  
+  - Using the [paraphrase-multilingual-mpnet-base-v2](https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2) model
 - [HuggingFace Transformers](https://huggingface.co/)
 - [NumPy](https://numpy.org/)
 
